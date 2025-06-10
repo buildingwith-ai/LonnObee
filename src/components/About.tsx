@@ -9,7 +9,7 @@ const About = () => {
             <div
               className="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32 self-center md:self-start"
               style={{
-                backgroundImage: 'url("https://images.pexels.com/photos/5453773/pexels-photo-5453773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
+                backgroundImage: 'url("/f1a473ed-319f-40dc-9b4a-4f44675e9545-resize.webp")',
               }}
             ></div>
             <div className="flex flex-col justify-center">
