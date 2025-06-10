@@ -51,7 +51,7 @@ const CoachingPrograms = () => {
             ></div>
             <div className="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
               <div>
-                <p className="text-[#0d151b] text-lg font-bold leading-tight mb-3">Executive Leadership Mastery</p>
+                <p className="text-[#0d151b] text-lg font-bold leading-tight mb-3">Executive Coaching</p>
                 <ul className="text-[#4c749a] text-sm font-normal leading-normal space-y-2">
                   <li>• Advanced leadership skill development</li>
                   <li>• Team communication enhancement</li>
