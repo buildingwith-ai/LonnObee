@@ -36,16 +36,16 @@ const Benefits = () => {
   ];
 
   return (
-    <div>
-      <h2 className="text-[#0d151b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Benefits of Coaching</h2>
+    <div className="w-full">
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Benefits of Coaching</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {benefits.map((benefit, index) => (
           <div 
             key={index}
-            className="flex flex-1 gap-3 rounded-lg border border-[#cfdce7] bg-slate-50 p-4 flex-col transform transition-all duration-300 hover:shadow-md hover:-translate-y-1"
+            className="flex flex-1 gap-3 rounded-lg border border-[#cfdce7] bg-slate-50 p-4 flex-col transform transition-all duration-300 hover:shadow-md hover:-translate-y-1 w-full"
           >
-            <div className="text-[#2a8fed]">
+            <div className="text-[#2a8fed] flex-shrink-0">
               {benefit.icon}
             </div>
             <div className="flex flex-col gap-1">

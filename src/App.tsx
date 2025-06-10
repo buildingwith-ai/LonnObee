@@ -12,11 +12,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col bg-slate-50 overflow-x-hidden font-['Lexend',_'Noto_Sans',_sans-serif]">
+    <div className="relative flex min-h-screen w-full flex-col bg-slate-50 font-['Lexend',_'Noto_Sans',_sans-serif]">
       <div className="flex h-full grow flex-col">
         <Header />
-        <div className="flex flex-1 justify-center px-4 md:px-8 lg:px-40">
-          <div className="flex flex-col max-w-[960px] flex-1">
+        <div className="flex flex-1 justify-center w-full">
+          <div className="flex flex-col max-w-[960px] flex-1 w-full">
             <Hero />
             <TrustedBy />
             <CoachingPrograms />

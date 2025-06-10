@@ -5,7 +5,7 @@ const StarRating = ({ rating }: { rating: number }) => {
   return (
     <div className="flex gap-0.5">
       {[...Array(5)].map((_, i) => (
-        <Star key={i} size={20} className="text-[#2a8fed]" fill={i < rating ? '#2a8fed' : 'none'} />
+        <Star key={i} size={16} className="sm:w-5 sm:h-5 text-[#2a8fed]" fill={i < rating ? '#2a8fed' : 'none'} />
       ))}
     </div>
   );
@@ -37,29 +37,29 @@ const Testimonials = () => {
   ];
 
   return (
-    <div id="testimonials" className="scroll-mt-20">
-      <h2 className="text-[#0d151b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Client Success Stories</h2>
+    <div id="testimonials" className="scroll-mt-20 w-full">
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Client Success Stories</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {testimonials.map((testimonial, index) => (
           <div 
             key={index}
-            className="flex flex-col gap-3 bg-slate-50 p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+            className="flex flex-col gap-3 bg-slate-50 p-4 sm:p-5 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 w-full"
           >
             <div className="flex items-center gap-3">
               <div
-                className="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                className="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 h-10 flex-shrink-0"
                 style={{ backgroundImage: `url("${testimonial.image}")` }}
               ></div>
-              <div className="flex-1">
-                <p className="text-[#0d151b] text-base font-medium leading-normal">{testimonial.name}</p>
+              <div className="flex-1 min-w-0">
+                <p className="text-[#0d151b] text-base font-medium leading-normal truncate">{testimonial.name}</p>
                 <p className="text-[#4c749a] text-sm font-normal leading-normal">{testimonial.date}</p>
               </div>
             </div>
             
             <StarRating rating={testimonial.rating} />
             
-            <p className="text-[#0d151b] text-base font-normal leading-normal">
+            <p className="text-[#0d151b] text-sm sm:text-base font-normal leading-normal">
               {testimonial.text}
             </p>
           </div>
