@@ -18,7 +18,8 @@ const CoachingPrograms = () => {
             <div
               className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
               style={{
-                backgroundImage: 'url("https://images.pexels.com/photos/3758105/pexels-photo-3758105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
+                backgroundImage: 'url("/src/assets/ChatGPT Image Jun 10, 2025, 12_32_13 AM.png")',
+                backgroundPosition: 'center 30%',
               }}
             ></div>
             <div className="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
