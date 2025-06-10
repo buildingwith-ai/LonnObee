@@ -92,15 +92,6 @@ const Contact = () => {
             </button>
           </div>
         </form>
-        
-        <div className="mt-8 text-center">
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h3 className="text-[#0d151b] text-lg font-bold mb-4">Contact Information</h3>
-            <p className="text-[#4c749a] mb-2 text-sm">Email: info@lonnobee.com</p>
-            <p className="text-[#4c749a] mb-2 text-sm">Phone: (555) 123-4567</p>
-            <p className="text-[#4c749a] text-sm">Office: 123 Wellness Street, Suite 456, Serenity Hills, CA 94123</p>
-          </div>
-        </div>
       </div>
     </div>
   );
