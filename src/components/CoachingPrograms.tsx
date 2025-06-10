@@ -26,7 +26,7 @@ const CoachingPrograms = () => {
               <div>
                 <p className="text-[#0d151b] text-lg font-bold leading-tight mb-3">Mind-Body Wellness Program</p>
                 <ul className="text-[#4c749a] text-sm font-normal leading-normal space-y-2">
-                  <li>• Stress reduction and anxiety management</li>
+                  <li>• Stress reduction</li>
                   <li>• Mindfulness and meditation techniques</li>
                   <li>• Emotional resilience building</li>
                   <li>• Work-life balance strategies</li>
