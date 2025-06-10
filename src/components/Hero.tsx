@@ -14,7 +14,7 @@ const Hero = () => {
         <div
           className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10 transition-transform duration-700 hover:scale-[1.01]"
           style={{
-            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("/f1a473ed-319f-40dc-9b4a-4f44675e9545-resize.webp")',
+            backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
           }}
         >
           <div className="flex flex-col gap-2 text-left">
