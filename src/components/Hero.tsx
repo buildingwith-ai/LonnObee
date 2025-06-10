@@ -35,7 +35,7 @@ const Hero = () => {
             <div
               className="bg-center bg-no-repeat bg-cover rounded-lg w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 shadow-lg transform transition-transform duration-700 hover:scale-105"
               style={{
-                backgroundImage: 'url("/src/assets/f1a473ed-319f-40dc-9b4a-4f44675e9545-resize.webp")',
+                backgroundImage: 'url("/f1a473ed-319f-40dc-9b4a-4f44675e9545-resize.webp")',
               }}
             ></div>
           </div>
