@@ -11,7 +11,7 @@ const CoachingPrograms = () => {
 
   return (
     <div id="services" className="scroll-mt-20 w-full">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Coaching Options</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">The Programs</h2>
       
       <div className="w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-4">
