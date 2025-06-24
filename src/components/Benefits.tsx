@@ -37,7 +37,7 @@ const Benefits = () => {
 
   return (
     <div className="w-full">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Benefits of My Coaching</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">How You'll Grow</h2>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {benefits.map((benefit, index) => (
