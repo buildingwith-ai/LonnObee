@@ -21,7 +21,7 @@ const CoachingPrograms = () => {
             <div className="flex flex-col p-6 gap-6 h-full">
               {/* Header */}
               <div className="text-center border-b border-[#e7edf3] pb-4">
-                <h3 className="text-[#0d151b] text-xl font-bold leading-tight mb-2">Mind-Body Wellness Program</h3>
+                <h3 className="text-[#0d151b] text-xl font-bold leading-tight mb-2">Holistic Wellness</h3>
                 <p className="text-[#4c749a] text-sm font-medium">Complete wellness transformation</p>
               </div>
               
