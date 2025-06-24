@@ -11,13 +11,13 @@ const CoachingPrograms = () => {
 
   return (
     <div id="services" className="scroll-mt-20 w-full">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Our Coaching Programs</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">My Coaching Programs</h2>
       
-      <div className="w-full overflow-x-auto">
-        <div className="flex gap-6 p-4 min-w-max sm:min-w-0 sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-8">
+      <div className="w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-4">
           
           {/* Mind-Body Wellness Program */}
-          <div className="flex h-full flex-1 flex-col rounded-xl bg-white border border-[#e7edf3] shadow-lg min-w-[320px] sm:min-w-0 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+          <div className="flex h-full flex-1 flex-col rounded-xl bg-white border border-[#e7edf3] shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
             <div className="flex flex-col p-6 gap-6 h-full">
               {/* Header */}
               <div className="text-center border-b border-[#e7edf3] pb-4">
@@ -69,7 +69,7 @@ const CoachingPrograms = () => {
           </div>
           
           {/* Executive Coaching */}
-          <div className="flex h-full flex-1 flex-col rounded-xl bg-white border border-[#e7edf3] shadow-lg min-w-[320px] sm:min-w-0 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+          <div className="flex h-full flex-1 flex-col rounded-xl bg-white border border-[#e7edf3] shadow-lg transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
             <div className="flex flex-col p-6 gap-6 h-full">
               {/* Header */}
               <div className="text-center border-b border-[#e7edf3] pb-4">

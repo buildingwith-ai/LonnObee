@@ -38,7 +38,7 @@ const Testimonials = () => {
 
   return (
     <div id="testimonials" className="scroll-mt-20 w-full">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Client Success Stories</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Client Success Stories</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {testimonials.map((testimonial, index) => (
