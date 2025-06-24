@@ -4,7 +4,7 @@ import { Search, Users, LineChart } from 'lucide-react';
 const Process = () => {
   return (
     <div className="w-full">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Process</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">The Process</h2>
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 p-4">
         <div className="flex flex-1 gap-3 bg-slate-50 p-3 sm:p-4 flex-row sm:flex-col items-center sm:text-center transform transition-all duration-300 hover:shadow-md hover:-translate-y-1 rounded-lg w-full">
           <div className="text-[#2a8fed] flex-shrink-0">
