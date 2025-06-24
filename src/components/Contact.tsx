@@ -88,7 +88,7 @@ const Contact = () => {
               type="submit"
               className="flex w-full sm:w-auto min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-[#2a8fed] text-slate-50 text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#1a7fd8] transition-colors transform hover:scale-105 duration-300"
             >
-              <span className="truncate">{submitted ? 'Message Sent!' : 'Send Message'}</span>
+              <span className="truncate">{submitted ? 'Message Sent!' : 'Send'}</span>
             </button>
           </div>
         </form>
