@@ -15,7 +15,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Timothy Dalrymple',
-      date: 'June 15, 2023',
+      date: 'July 1, 2025',
       rating: 5,
       text: '"Lonn\'s holistic approach helped me find balance and reduce stress. I\'m now more productive and fulfilled both at work and in my personal life."',
       image: '/Screen Shot 2025-07-03 at 1.38.30 AM.png',
