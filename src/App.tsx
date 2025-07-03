@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import TrustedBy from './components/TrustedBy';
 import Process from './components/Process';
 import CoachingPrograms from './components/CoachingPrograms';
 import Benefits from './components/Benefits';
@@ -18,7 +17,6 @@ function App() {
         <div className="flex flex-1 justify-center w-full">
           <div className="flex flex-col max-w-[960px] flex-1 w-full">
             <Hero />
-            <TrustedBy />
             <Process />
             <CoachingPrograms />
             <Benefits />
