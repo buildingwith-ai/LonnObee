@@ -14,11 +14,11 @@ const StarRating = ({ rating }: { rating: number }) => {
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Olivia Carter',
+      name: 'Timothy Dalrymple',
       date: 'June 15, 2023',
       rating: 5,
       text: '"Lonn\'s holistic approach helped me find balance and reduce stress. I\'m now more productive and fulfilled both at work and in my personal life."',
-      image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/Screen Shot 2025-07-03 at 1.38.30 AM.png',
     },
     {
       name: 'Liam Bennett',
