@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="scroll-mt-20 mt-8 w-full px-4">
-      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3">Get in Touch</h2>
+      <h2 className="text-[#0d151b] text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3"></h2>
       
       <div className="max-w-lg mx-auto">
         <div className="flex py-3 justify-center w-full">
