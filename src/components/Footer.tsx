@@ -15,7 +15,12 @@ const Footer = () => {
             >
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-[#4c749a] hover:text-[#2a8fed] transition-colors">
+            <a 
+              href="https://www.instagram.com/lonnobee/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#4c749a] hover:text-[#2a8fed] transition-colors"
+            >
               <Instagram size={24} />
             </a>
           </div>
